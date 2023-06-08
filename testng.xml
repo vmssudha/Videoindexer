@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GTestSuite">
+
+	<test name="Regression">
+		<classes>
+		    <class name="tests.TestBase" /> 
+			<class name="tests.Addvideo" /> 
+			<class name="tests.SearchViedo" /> 
+			<class name="tests.ViewVideoInsights" /> 
+			</classes>	
+	</test> 
+	
+</suite> <!-- Suite -->

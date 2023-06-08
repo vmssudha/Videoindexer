@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-08T08:01:21Z" name="GTestSuite" finished-at="2023-06-08T08:02:04Z" duration-ms="43255">
+    <groups>
+    </groups>
+    <test started-at="2023-06-08T08:01:21Z" name="Regression" finished-at="2023-06-08T08:02:04Z" duration-ms="43255">
+      <class name="tests.TestBase">
+        <test-method is-config="true" signature="exe()[pri:0, instance:tests.TestBase@41c2284a]" started-at="2023-06-08T08:01:21Z" name="exe" finished-at="2023-06-08T08:01:21Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exe -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.SearchViedo">
+        <test-method is-config="true" signature="chromesetup()[pri:0, instance:tests.SearchViedo@46fa7c39]" started-at="2023-06-08T08:01:32Z" name="chromesetup" finished-at="2023-06-08T08:01:33Z" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromesetup -->
+        <test-method signature="login()[pri:0, instance:tests.SearchViedo@46fa7c39]" started-at="2023-06-08T08:01:33Z" name="login" finished-at="2023-06-08T08:01:49Z" duration-ms="15924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchViedo@46fa7c39]" started-at="2023-06-08T08:01:49Z" name="tearDown" finished-at="2023-06-08T08:01:49Z" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchViedo -->
+      <class name="tests.Addvideo">
+        <test-method is-config="true" signature="chromesetup()[pri:0, instance:tests.Addvideo@53aad5d5]" started-at="2023-06-08T08:01:21Z" name="chromesetup" finished-at="2023-06-08T08:01:23Z" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromesetup -->
+        <test-method signature="addVideo()[pri:0, instance:tests.Addvideo@53aad5d5]" started-at="2023-06-08T08:01:23Z" name="addVideo" finished-at="2023-06-08T08:01:32Z" duration-ms="9439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVideo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Addvideo@53aad5d5]" started-at="2023-06-08T08:01:32Z" name="tearDown" finished-at="2023-06-08T08:01:32Z" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Addvideo -->
+      <class name="tests.ViewVideoInsights">
+        <test-method is-config="true" signature="chromesetup()[pri:0, instance:tests.ViewVideoInsights@1fb700ee]" started-at="2023-06-08T08:01:49Z" name="chromesetup" finished-at="2023-06-08T08:01:51Z" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromesetup -->
+        <test-method signature="aloginTest()[pri:0, instance:tests.ViewVideoInsights@1fb700ee]" started-at="2023-06-08T08:01:51Z" name="aloginTest" finished-at="2023-06-08T08:02:04Z" duration-ms="13360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aloginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ViewVideoInsights@1fb700ee]" started-at="2023-06-08T08:02:04Z" name="tearDown" finished-at="2023-06-08T08:02:04Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ViewVideoInsights -->
+    </test> <!-- Regression -->
+  </suite> <!-- GTestSuite -->
+</testng-results>
